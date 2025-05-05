@@ -1,0 +1,10 @@
+inteiro num, calc = 0,nl = 0
+  
+
+  enquanto(calc <= 100)
+    {escreva("Digite um numero para somar: ")
+    leia(num)
+    nl += 1
+    calc = num + calc}
+  escreva("Suas contas passaram de 100 (Valor maximo)\n")
+  escreva("Total de numeros lidos: ", nl)
