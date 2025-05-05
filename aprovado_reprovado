@@ -1,0 +1,10 @@
+inteiro nota 
+
+  escreva("informe sua nota: ")
+  leia(nota)
+  se(nota >= 7)
+    {escreva("APROVADO!")}
+  senao se(nota >= 4 e nota <= 6)
+    {escreva("RECUPERAÇÃO!")}
+  senao
+    {escreva("REPROVADO!")} 
