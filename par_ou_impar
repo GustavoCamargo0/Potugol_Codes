@@ -1,0 +1,13 @@
+  inteiro num
+  cadeia res = "Sim"
+
+  enquanto(res == "Sim" ou res == "sim" ou res == "S" ou res == "s"){
+  escreva("Digite um numero e descubra se é par ou impar: ")
+  leia(num)
+  se(num % 2 == 0)
+    {escreva(num, " é par\n")}
+  senao
+    {escreva(num, " é impar\n")}
+  escreva("Deseja continuar? ")
+  leia(res)  
+  }
