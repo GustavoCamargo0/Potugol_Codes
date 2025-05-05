@@ -1,0 +1,11 @@
+  inteiro num
+
+  //verificador de valor positivo, negativo ou zero
+  escreva("Digite um valor: ") 
+  leia(num)
+  se(num > 0)
+    {escreva("valor positivo!")}
+  senao se(num == 0)
+    {escreva("valor igual a 0")}
+  senao
+    {escreva("valor negativo")}
