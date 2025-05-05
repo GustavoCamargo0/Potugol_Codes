@@ -1,0 +1,6 @@
+inteiro c,f = 1
+  escreva("Digite um numero a ser fatorado: ")
+  leia(c)
+  para(c ; c >= 1 ; c--)
+    {f = f * c}
+  escreva(f)
