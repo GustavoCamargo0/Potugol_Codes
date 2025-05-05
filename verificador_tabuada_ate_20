@@ -1,0 +1,7 @@
+  inteiro num,multi = 1
+
+  escreva("digite um numero para saber sua tabuada: ")
+  leia(num)
+  enquanto(multi <= 20)
+    {escreva(num , " X ", multi , " = ", num * multi, "\n")
+    multi += 1}  
