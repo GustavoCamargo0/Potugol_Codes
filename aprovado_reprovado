@@ -11,3 +11,5 @@ real nota,i = 1,media = 0
   senao
     {escreva("REPROVADO!")}
   escreva("\n Media Final: ", media/5) 
+
+https://docs.google.com/document/d/10K7HEdJPWZ7SOdF-le_PiyDAodGlljp1/edit?tab=t.0
